@@ -1,0 +1,39 @@
+{
+  "name": "consequent-mssql",
+  "version": "1.0.0-1",
+  "description": "Consequent actor and event store adapters for MSSQL 2016",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha spec/behavior/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arobson/consequent-mssql.git"
+  },
+  "keywords": [
+    "consequent",
+    "mssql",
+    "eventsource",
+    "crdt"
+  ],
+  "author": "Alex Robson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arobson/consequent-mssql/issues"
+  },
+  "homepage": "https://github.com/arobson/consequent-mssql#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "mssql": "~3.3.0",
+    "sliver": "^0.2.0",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "consequent": "0.1.0-6",
+    "sinon": "^1.17.4",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0"
+  }
+}
